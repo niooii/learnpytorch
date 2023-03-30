@@ -5,4 +5,4 @@ torch.set_default_device(device)
 print(device)
 tensorA = torch.rand(size=(4, 5, 3))
 tensorB = torch.rand(size=(4, 5, 3))
-print(torch.mm(tensorA, tensorB))
+
